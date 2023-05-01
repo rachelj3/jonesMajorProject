@@ -101,11 +101,19 @@ function Recipe(n, a)
     }
 }//end recip
 
-let tester = new Recipe("Sweet Potato Sheet Pan", "dinner1.html");
+let dinner1 = new Recipe("Sweet Potato Sheet Pan", "dinner1.html");
+let dinner2 = new Recipe("Savory Turkey Potpies", "dinner2.html");
+let dinner3 = new Recipe("Lemon Chicken with Orzo", "dinner3.html");
+let dinner4 = new Recipe("Mediterranean Turkey Skillet", "dinner4.html");
+let dinner5 = new Recipe("Pesto Gnocchi Sheet Pan", "dinner5.html");
 
 document.addEventListener("DOMContentLoaded", function()
 {
-    tester.addToBreakfastNavigation();
+    dinner1.addToDinnerNavigation();
+    dinner2.addToDinnerNavigation();
+    dinner3.addToDinnerNavigation();
+    dinner4.addToDinnerNavigation();
+    dinner5.addToDinnerNavigation();
   
 });
 document.getElementById("logos").addEventListener("click", function()

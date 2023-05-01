@@ -35,7 +35,7 @@ body{
   	background-color: white;
   	min-width: 160px;
   	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  	padding: 12px 16px, 12px, 12px;
+  	padding: 12px 12px 12px 12px;
   	z-index: 1;
 }
 
@@ -46,6 +46,7 @@ body{
 .dropdownContent ul li{
 	padding-top: 9px;
 	padding-bottom: 9px;
+	padding-left: 0px;
 	font-size: 18px;
 }
 
