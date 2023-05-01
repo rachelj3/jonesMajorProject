@@ -56,6 +56,7 @@ body{
 
 .dropdown:hover .dropdownContent li:hover{
 	color: #EF8354;
+	cursor: pointer;
 }
 
 #content{
@@ -66,23 +67,33 @@ body{
 	top: 75px;
 	margin: auto;
 	background-color: white;
+
 }
 
 .dropdown:hover{
 	color: #EF8354;
+	cursor: pointer;
+}
+
+#logos:hover{
+    cursor: pointer;
 }
 
 #galleryTitle{
+	display: flex;
 	position: absolute;
 	height: 75px;
-	width: 400px;
+	width: 600px;
 	background-color: #EF8354;
 	top: 18px;
 	left: 75px;
 	border-radius: 10px;
+	align-items: center;
+	justify-content: center;
 }
 
 #gallery{
+	display: flex;
 	position: absolute;
 	height: 500px;
 	width: 900px;
@@ -90,20 +101,107 @@ body{
 	top: 50px;
 	left: 100px;
 	border-radius: 10px;
+	flex-direction: row;
 }
 
-h1{
-	color: #545F66;
-}
+
 
 #homepageHeader{
-	padding-top: 50px;
-	padding-left: 150px;
+	display: flex;
+	color: white;
+	justify-content: center;
+	align-items: center;
+	background-color: #545F66;
+	margin-top: 75px;
+	margin-left: 100px;
+	top: 40px;
+	height: 75px;
+	width: 600px;
+	border-radius: 15px;
 }
 
 #homepageContent{
 	color: #545F66;
-	padding-top: 10px;
 	padding-left: 150px;
 	padding-right: 150px;
+}
+
+#galleryTitle h2{
+	color: white;
+	font-size: 30px;
+}
+
+p{
+	font-size: 20px;
+}
+
+#keyphoto{
+}
+
+#keyphoto img{
+	border-radius: 10px 0px 0px 10px;
+	border-right: 25px solid;
+	border-right-color: white;
+}
+
+
+#keyinfo{
+	display: flex;
+	flex-direction: column;
+	padding-left: 20px;
+}
+
+#keyTitle{
+	color: white;
+	font-size: 30px;
+	padding-top: 30px;
+	padding-bottom: 10px;
+}
+
+#keyRating{
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+#keyDescription p{
+	color: white;
+	padding-top: 10px;
+	font-size: 25px;
+}
+
+.homepageVis{
+    display:block;
+    background-color: blue;
+}
+#poop{
+    display: inline;
+    visibility: visible;
+    background-color: blue;
+}
+
+#howToFlex{
+	display:flex;
+	flex-direction: row;
+	
+	width: 900px;
+	height: 600px;
+	padding-top: 50px;
+	padding-bottom: 300px;
+	margin: auto;
+	color: #545F66;
+}
+
+#ingredients{
+	width: 400px;
+	height: 600px;
+	font-size: 22px;
+}
+
+#ingredients ul{
+	list-style: circle;
+}
+#instructions{
+	width: 500px;
+	height: 600px;
+	font-size: 22px;
 }

@@ -22,6 +22,7 @@
 
 		<!-- external and on-page JavaScript goes here -->
 		<script type="text/javascript" src="scripts.js" defer></script>
+		<script src="https://kit.fontawesome.com/dc4b9d6624.js" crossorigin="anonymous"></script>
 		<script>
 			// on-page JavaScript, if any, goes here -- otherwise delete this section
 		</script>
@@ -38,7 +39,7 @@
 				<div id="dropdownMenus">
 					<div class="dropdown">
 						<h2>Breakfast</h2>
-						<div class="dropdownContent">
+						<div class="dropdownContent" id="breakfast">
 							<ul>
 								<li>test 1</li>
 								<li>test 2</li>
@@ -48,7 +49,7 @@
 					</div>
 					<div class="dropdown">
 						<h2>Lunch</h2>
-						<div class="dropdownContent">
+						<div class="dropdownContent" id="lunch">
 							<ul>
 								<li>test 1</li>
 								<li>test 2</li>
@@ -58,7 +59,7 @@
 					</div>
 					<div class="dropdown">
 						<h2>Dinner</h2>
-						<div class="dropdownContent">
+						<div class="dropdownContent" id="dinner">
 							<ul>
 								<li>test 1</li>
 								<li>test 2</li>
@@ -68,7 +69,7 @@
 					</div>
 					<div class="dropdown">
 						<h2>Snacks</h2>
-						<div class="dropdownContent">
+						<div class="dropdownContent" id="snacks">
 							<ul>
 								<li>test 1</li>
 								<li>test 2</li>
@@ -78,16 +79,40 @@
 					</div>
 				</div>
 		</div>
-		<h1 id="homepageHeader">Welcome to True to you Recipes!</h1>
-		<p id="homepageContent">Were excited to have you. Taking control of your diet in the first step in living your life to the fullest. At TTYR, we value good ingredients, valuable nutrients, but above all, that good taste we know you want. Dairy free doesn't have to be bland and boring! All your favorite foods can be adapted to fit yoru dietary needs. We're here to help make that dream a reality. Get started with us.</p>
-		<div id="content">
-			<div id="gallery">
-			</div>
-			<div id= "galleryTitle">
-			</div>
+		<div id="homepageVis">
+    		<div id="homepageHeader">
+    			<h1>Welcome to True to you Recipes!</h1>
+    		</div>
+    		<p id="homepageContent">Were excited to have you. Taking control of your diet in the first step in living your life to the fullest. At TTYR, we value good ingredients, valuable nutrients, but above all, that good taste we know you want. Dairy free doesn't have to be bland and boring! All your favorite foods can be adapted to fit your dietary needs. We're here to help make that dream a reality. Get started with us.</p>
+    		<div id="content">
+    			<div id="gallery">
+    				<div id="keyphoto">
+    					<img src="https://plantbasedrdblog.com/wp-content/uploads/2021/04/Chickpea-Sweet-Potato-Sheet-Pan_feat.jpg" height= "500">
+    				</div>
+    				<div id="keyinfo">
+    					<div id="keyTitle">
+    						<h2>Sweet Potato Chickpea Sheet Pan</h2>
+    					</div>
+    					<div id="keyRating">
+    						<i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
+    						<i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
+    						<i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
+    						<i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
+    						<i class="fa-solid fa-star fa-2xl" style="color: #ffffff;"></i>
+    					</div>
+    					<div id="keyDescription">
+    						<p>This vegan chickpea sheet pan dinner includes sweet potato, chickpeas, and broccoli roasted with simple spices and herbs. Full of flavor, easy to assemble and bakes in one pan!</p>
+    					</div>
+    				</div>
+    			</div>
+    			<div id= "galleryTitle">
+    				<h2>Check out whats hot this week!</h2>
+    			</div>
+            </div>
+        </div>    
+        <div id="recipeSlot">
+
 		</div>
-
-
 	</body>
 
 </html>
