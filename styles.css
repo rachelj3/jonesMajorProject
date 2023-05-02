@@ -19,6 +19,7 @@ body{
 #dropdownMenus
 {
 	margin-left: auto;
+	padding-right: 80px;
 }
 
 .dropdown{
@@ -41,6 +42,7 @@ body{
 
 .dropdownContent ul{
 	list-style: none;
+	
 }
 
 .dropdownContent ul li{
